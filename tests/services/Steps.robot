@@ -6,7 +6,7 @@ Resource            Requests.robot
 
 *** Variable ***
 ${HOST}             https://api.petfinder.com
-# create credentials
+# create credentials in https://www.petfinder.com/developers/
 ${CLIENT_ID}        ${ID}
 ${CLIENT_SECRET}    ${SECRET}
 

@@ -1,7 +1,5 @@
 *** Settings ***
-Documentation       Suíte de Exemplo de testes API com o Robot Framework
 Resource            Steps.robot
-
 Force Tags          @services
 
 Suite Setup         Create Session      petfinder       ${HOST}
